@@ -1,0 +1,28 @@
+source-file ~/.tmux/tmux_theme
+
+
+#new 'archbey -c white; fortune 25% archlinux 25% linux wisdom; echo -e \\n; bash -i'
+new 'archbey -c white; fortune 25% archlinux 25% linux wisdom; echo -e \\n; zsh --interactive'
+
+selectp -t 0
+#splitw -h -p 50 'cat ~/howto/awesome.txt; bash -i'
+splitw -h -p 50 'cat ~/howto/awesome.txt; zsh --interactive'
+
+selectp -t 1
+split -v -p 50 
+
+
+selectp -t 0 
+
+#split -v -p 50 'archbey -c white; fortune 25% archlinux 25% linux wisdom; echo -e \\n; zsh --interactive'
+#selectp -t 0 
+
+#set-option status-bg '#00568e' 
+
+#set-option status-bg '#222222' 
+#set-option status-fg '#888888' 
+set-option -g pane-active-border-fg '#555555'
+set-option -g pane-border-fg '#222222'
+
+
+

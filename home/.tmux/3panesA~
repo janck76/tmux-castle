@@ -1,0 +1,18 @@
+#respawn-window -t 0 'archbey -c white; fortune 25% archlinux 25% linux wisdom; echo -e \\n; bash -i'
+#send-keys -t 0 ls Enter
+new 'ls; bash -i'
+
+selectp -t 0
+splitw -h -p 50 'cat ~/howto/awesome.txt; bash -i'
+
+selectp -t 1
+split -v -p 50 
+
+
+selectp -t 0 
+
+#split -v -p 50 'archbey -c white; fortune 25% archlinux 25% linux wisdom; echo -e \\n; bash -i'
+#selectp -t 0 
+
+set-option status-bg '#00568e' 
+set-option status-fg '#ffffff' 

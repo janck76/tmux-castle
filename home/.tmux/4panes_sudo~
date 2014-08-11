@@ -1,0 +1,23 @@
+source-file ~/.tmux/3panesA
+#new 'sudo su -' 
+new 'sudo -i ssh-add'
+#-s sudosu
+#attach -t sudosu
+#selectp -t 0
+# selectp -t 0
+# splitw -h -p 50 'cat ~/howto/awesome.txt; bash -i'
+# 
+# selectp -t 1
+# split -v -p 50 
+# 
+# 
+# selectp -t 0 
+# split -v -p 50 'archbey -c white; fortune 25% archlinux 25% linux wisdom; echo -e \\n; bash -i'
+# selectp -t 0 
+# 
+# 
+# set-option status-bg '#00568e' 
+# set-option status-fg '#ffffff' 
+# 
+# #source /usr/lib/python3.3/site-packages/powerline/bindings/tmux/powerline.conf
+# 
