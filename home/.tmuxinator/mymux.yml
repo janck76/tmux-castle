@@ -1,6 +1,7 @@
 # ~/.tmuxinator/mymux.yml
 
-name: ✠ 
+name: mymux 
+# name: x 
 root: ~/
 
 # Optional tmux socket
