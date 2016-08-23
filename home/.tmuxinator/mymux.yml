@@ -23,8 +23,8 @@ windows:
   - main:
       layout: b5e0,239x64,0,0[239x12,0,0,0,239x51,0,13{119x51,0,13,2,119x51,120,13,3}]
       panes:
-        - journalctl -p 0..3 -S now -f
-        - clear 
+        - clear ; journalctl -p 0..3 -S now --no-full -o short-iso --no-hostname -f
+        -
         - clear ; fortune ; tmux select-pane -t 1
   - logs: 
       layout: 0f8c,239x64,0,0{119x64,0,0,45,119x64,120,0[119x46,120,0,49,119x17,120,47,50]}
